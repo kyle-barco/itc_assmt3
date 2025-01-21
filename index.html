@@ -20,19 +20,30 @@
         <button class="navbar-toggle">
           <i class="fa-solid fa-bars fa-2x"></i>
         </button>
-        <a href="" class="logo">
-          <img src="logo.svg" alt="" />
-        </a>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.75em;
+            cursor: pointer;
+          "
+        >
+          <a href="#" class="logo">
+            <img src="head.png" alt="" />
+          </a>
+          <span style="font-weight: bolder; color: white">KBlog</span>
+        </div>
         <nav class="navbar">
           <ul class="navbar__list navbar__list--primary">
             <li class="navbar__item">
               <a href="#hero" class="navbar__link">Home</a>
             </li>
             <li class="navbar__item">
-              <a href="#" class="navbar__link">About</a>
+              <a href="#footer" class="navbar__link">About</a>
             </li>
             <li class="navbar__item">
-              <a href="#" class="navbar__link">Contact</a>
+              <a href="https://github.com/kyle-barco" target="_blank" class="navbar__link">More</a>
             </li>
           </ul>
         </nav>
@@ -58,20 +69,47 @@
               <p class="os-desc"></p>
               <p class="os-ex"></p>
             </div>
+            <div class="section2_image">
+              <img
+                src="https://3.bp.blogspot.com/-wjP6RpVjR2Q/VgiUq8PKU3I/AAAAAAAAACU/s-zCJ98AHsE/s1600/operating-system-wallpaper.jpg"
+                alt=""
+              />
+              <span
+                >image from
+                <a
+                  target="_blank"
+                  href="https://3.bp.blogspot.com/-wjP6RpVjR2Q/VgiUq8PKU3I/AAAAAAAAACU/s-zCJ98AHsE/s1600/operating-system-wallpaper.jpg"
+                  >learning operating system</a
+                ></span
+              >
+            </div>
+
             <div>
               <h2 class="role-os-title"></h2>
               <p class="role-os-desc"></p>
             </div>
-            <hr>
+            <hr />
             <div>
               <h2 class="util-title1"></h2>
-              <p class="util-desc1">
-              </p>
+              <p class="util-desc1"></p>
+            </div>
+            <div class="section2_image">
+              <img
+                src="https://www.toledocomputerrepair.com/wp-content/uploads/2014/01/utility-software.jpg"
+                alt=""
+              />
+              <span
+                >image from
+                <a
+                  target="_blank"
+                  href="https://www.toledocomputerrepair.com/wp-content/uploads/2014/01/utility-software.jpg"
+                  >toledo computer repair</a
+                ></span
+              >
             </div>
             <div>
               <h2 class="util-title2"></h2>
-              <p class="util-desc2">
-              </p>
+              <p class="util-desc2"></p>
             </div>
           </div>
         </div>
@@ -79,115 +117,52 @@
 
       <section class="section2 container row">
         <div class="section-content">
-          <h2 class="section2__title">It doesn't have to be so hard</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam
-          </p>
+          <h2 class="section2__title conc-title"></h2>
+          <p class="conc-desc"></p>
 
           <div class="section2_image">
-            <img src="the-image.jpg" alt="" />
+            <img
+              src="https://2.bp.blogspot.com/-1kEtJecEo40/WN_FVEL23AI/AAAAAAAAApE/LR8nsU6ULqwp3LmwWb2C7fOTxHtoJEpbgCLcB/s1600/operating%2Bsystem.png"
+              alt=""
+            />
+            <span
+              >image from
+              <a
+                target="_blank"
+                href="https://3.bp.blogspot.com/-wjP6RpVjR2Q/VgiUq8PKU3I/AAAAAAAAACU/s-zCJ98AHsE/s1600/operating-system-wallpaper.jpg"
+                >fity</a
+              ></span
+            >
           </div>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam
-          </p>
         </div>
-        <aside class="sidebar">
-          <div>
-            <h3>Break it down</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div>
-            <h3>Work your way up</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div>
-            <h3 class="--hidden">Break it down</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </aside>
       </section>
     </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container">
-        <h2 class="footer__title">Just scratch the surface</h2>
+        <h2 class="footer__title">I appreciate your time!</h2>
         <div class="footer__content row">
           <div>
-            <h3>About our company</h3>
+            <h3>About KBlog</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Exercitationem at quidem eius, tempora ad, dolor recusandae
-              assumenda quo magnam mollitia, nemo velit odio eaque.
+              Nice to meet you, I'm Kyle Barco, I'm 1st year Information
+              Technology student at Polytechnic University of The Philippines
+              Sta. Mesa Campus
             </p>
           </div>
           <div>
-            <h3>Getting around</h3>
+            <h3>Connect with Me!</h3>
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="" class="footer__link">Home</a>
+                <a href="https://github.com/kyle-barco" target="_blank" class="footer__link">Github</a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">About</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">Contact</a>
+                <a href="https://www.facebook.com/kylebarco9" target="_blank" class="footer__link">Facebook</a>
               </li>
             </ul>
           </div>
-          <div>
-            <h3>Other things</h3>
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a href="" class="footer__link">Lorem, ipsum.</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">dolor</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">sit amet</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">consectetur</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>And more</h3>
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a href="" class="footer__link">Lorem, ipsum.</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">dolor</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">sit amet</a>
-              </li>
-              <li class="footer__item">
-                <a href="" class="footer__link">consectetur</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
+        &copy2025
     </footer>
 
     <script src="main.js"></script>

@@ -15,5 +15,8 @@
     "utilTitle2": "Real-Life Application: Maintaining a Personal Computer",
     "utilDesc2": "Imagine you’re a student preparing for an important presentation. Your laptop, running Windows, starts to slow down due to excessive temporary files and outdated drivers. Here’s how the OS and utility programs come to the rescue:\n\nOperating System's Role: Windows is responsible for seeing that applications such as PowerPoint get the necessary resources from your computer hardware. Additionally, it allows multitasking between, say, your research, presentation slide creation, and video conferencing.\n\nUtility Programs at Work:\n\nYou execute Disk Cleanup to clear temporary files that are eating into your precious storage space.\n\nThe antivirus program performs a system scan to confirm there is no malware slowing things down.\n\nA driver updater ensures all the hardware components, such as your graphics card, are best optimized for performance.\n\nThese tools together ensure your laptop is ready for any task."
   },
-  "conc": {}
+  "conc": {
+    "concTitle": "Conclusion",
+    "concDesc": "These unsung heroes are really the utility and operating programs for modern computing: They provide a framework and the tools necessary to maintain our devices as running in good order, safe, and efficiently. This knowledge is of course just as useful to the casual browser of the internet as it is to the IT professional managing the server. Next time you turn on your computer or run a utility application, think for a moment about the complex systems operating in the background to make your digital life so enjoyable."
+  }
 }

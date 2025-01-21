@@ -43,6 +43,12 @@ document.addEventListener("DOMContentLoaded", function () {
       utilTitle2.textContent = `${data.body.utilTitle2}`;
       utilDesc2.textContent = `${data.body.utilDesc2}`;
       utilDesc2.innerHTML = `${data.body.utilDesc2.replace(/\n/g, "<br>")}`;
+
+      // conclusion 
+      const concTitle = document.querySelector('.conc-title')
+      const concDesc = document.querySelector('.conc-desc')
+      concTitle.textContent = `${data.conc.concTitle}`
+      concDesc.textContent = `${data.conc.concDesc}`
       
     })
     .catch((error) => console.error("Error fetching JSON data:", error));
